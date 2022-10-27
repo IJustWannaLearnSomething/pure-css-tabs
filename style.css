@@ -3,9 +3,13 @@
 /* tab setting */
 /* breakpoints */
 /* selectors relative to radio inputs */
+body {
+  width: 100vw;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
 .tabs {
-  left: 50%;
-  transform: translateX(-50%);
   position: relative;
   background: white;
   padding: 50px;
